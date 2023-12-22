@@ -57,6 +57,7 @@ Au niveau du projet dans `sn.isi.resources`, un dossier assez utile où on va me
 
 Vu que nous avons utilisé du docker pour la conteneurisation voici une petite explication de notre fichier `docker-compose.yml` qui se trouve à la racine du projet
 Ce fichier est un fichier de configuration YAML utilisé pour définir des services Docker dans le contexte de Docker Compose. Docker Compose est un outil qui permet de définir et de gérer des applications Docker multi-conteneurs. Il permet de spécifier l'ensemble des services, des réseaux et des volumes nécessaires pour qu'une application fonctionne. Ci après le contenu de ce fichier et les explications de chaque ligne.
+
 ```
 services: # C'est la section principale où vous définissez les services Docker. Chaque service représente un conteneur.
 
@@ -92,7 +93,7 @@ services: # C'est la section principale où vous définissez les services Docker
 volumes: # Cette section définit un volume nommé mysql_data avec un driver local. Ce volume est utilisé pour stocker les données persistantes du conteneur MySQL.
   mysql_data:
     driver: local
-
-
 ```
+
+### Bien à vous `M.N.21`
 
