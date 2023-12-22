@@ -1,40 +1,21 @@
-![work status](https://img.shields.io/badge/work-on%20progress-red.svg)
-![Ngor Seck](https://img.shields.io/badge/Ngor%20Seck-Java-green)
-![PHP](https://img.shields.io/badge/Ngor%20Seck-SpringBoot-yellowgreen)
+# Projet Spring Boot avec Java 8
 
-### REQUIREMENTS
-Prérequis pour démarrer le projet  :
-```
-    Java 1.8 
-    Docker 
-    maven
-```
-### Faites un clone
-:rocket:
+## Description
+Ce projet est un projet Spring Boot utilisant Java 8. Il comprend des tests unitaires, une intégration avec Docker pour la conteneurisation, ainsi que l'utilisation du framework de logging Log4j.
 
-* Go
+## Installation
+Pour exécuter ce projet localement, veuillez suivre les étapes suivantes :
+1. Cloner le dépôt
+2. Exécuter la commande suivante : `mvn clean install`
+3. Lancer l'application en utilisant la commande : `java -jar nom_du_fichier.jar`
 
-```bash 
-git clone https://github.com/ngorseck/admin-app.git
-# Executer la commande docker-compose 
-docker-compose up -d
-# Démarrer le projet pour les tests 
+## Tests Unitaires
+Ce projet est accompagné d'une suite complète de tests unitaires pour assurer la fiabilité du code.
 
-```
-#### Objectifs
---- 
-```
-Ce code va vous permettre de comprendre :
--Comment fonctionne une application spring boot ?
--Comment mettre en place une architecture Java spring boot ?
--Comment utiliser docker pour mettre en place un environnement de dev autonome ?
--Comment mettre en place un micro service ?
-```
+## Conteneurisation avec Docker
+Le projet est compatible avec Docker, ce qui permet de le déployer facilement dans des environnements conteneurisés.
 
-```
-#### Contact
----
-Email
-```
-:email:  ngorsecka@gmail.com
+## Logging avec Log4j
+Log4j est utilisé pour la gestion des logs dans ce projet, assurant une traçabilité efficace des événements.
 
+N'hésitez pas à contribuer ou à signaler tout problème en créant une issue !
